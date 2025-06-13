@@ -1,3 +1,5 @@
+// Create a simple Express api that connect to postSQL database and perform basic crude  database operation (Create ,read,Update,Delete).
+//   Working Express.js server , postSQL database connection implementation of ll CRUDE operation Basic error handling Test your api using postman or similar tool
 const express = require('express');
 const pool = require('./db');
 require('dotenv').config();
